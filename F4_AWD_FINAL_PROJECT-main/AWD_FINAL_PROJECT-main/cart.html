@@ -1,0 +1,118 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CART</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/b804de39d8.js"></script>
+        <link rel="stylesheet" href="cart.css">
+    </head>
+    <body>
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <a href="homepage.html"><img src="pokemon_logo.png" alt="logo"></a>
+                    </span>
+                    <div class="text header-text">
+                        <span class="name">Pokémon Go Webstore</span>
+                        <span class="profession">Player account</span>
+                    </div>
+                </div>
+
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+
+            <div class="menu-bar">
+                <div class="menu">
+
+                        <li class="search-box">
+                            <i class='bx bx-search icon'></i><input type="text" placeholder="Search...">
+                        </li>
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="homepage.html"><i class='bx bx-home-alt icon'></i><span class="text nav-text">Dashboard</span></a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="profile.html"><i class='bx bxs-user icon'></i><span class="text nav-text">Profile</span></a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="Payment.html"><i class='bx bx-store-alt icon'></i><span class="text nav-text">Payment</span></a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="cart.html"><i class='bx bx-cart icon' ></i><span class="text nav-text">Store</span></a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="transaction_history.html"><i class='bx bx-history icon'></i><span class="text nav-text">History</span></a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="registration.html"><i class='bx bx-edit icon'></i><span class="text nav-text">Register</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-content">
+                    <li class="">
+                        <a href="index.html"><i class='bx bx-log-out icon'></i><span class="text nav-text">Logout</span></a>
+                    </li>
+                    <li class="mode">
+                        <div class="moon-sun">
+                            <i class='bx bx-moon icon moon'></i>
+                            <i class='bx bx-sun icon sun'></i>
+                        </div>
+                        <span class="mode-text text">Dark Mode</span>
+
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+        
+        <div class="container">
+            <header>
+                <h1>Your Store</h1>
+                <div class="shopping">
+                    <img src="image/icons8-cart-64.png">
+                    <span class="quantity">0</span>
+                </div>
+            </header>
+
+            <div class="list">
+            
+            </div>
+        </div>
+        
+        <div class="card hidden" id="card">
+        
+            <h1>CART</h1>
+            <ul class="listCard">
+            </ul>
+        
+        <div class="checkOut">
+            <div class="total">Total: $0</div>
+            <div class="closeShopping">Close
+            </div>
+            
+        </div>
+        
+        <div class ="button">
+            <a href="Payment.html" class="paymentBtn">Payment</a>
+        </div>
+
+
+        
+
+        <script src="cart.js"></script>
+    </body>
+    </html>
